@@ -8,7 +8,7 @@ RUN apt update
 RUN apt install -y ccache
 RUN apt install -y curl
 RUN apt install -y make
-# RUN apt install -y binutils
+RUN apt install -y binutils
 
 
 RUN mkdir /muos-sdk
